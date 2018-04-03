@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="UserService">
+      <implementation-class>UserServer.UserService</implementation-class>
+    </service>
+    <service name="ThreadService">
+      <implementation-class>ThreadServer.ThreadService</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
